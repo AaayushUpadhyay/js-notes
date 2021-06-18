@@ -1,0 +1,37 @@
+
+body
+{
+    background-color: darkslateblue;
+}
+
+.whitebox
+{
+    height: 160px;
+    width: 160px;
+    background-color: whitesmoke;
+    margin: 10px;/* abhi sab ek ke niche ek a rhe , ek line mei lane ke liye display:inline-block*/
+    display: inline-block;
+    border: black 4px solid;
+
+}
+
+.imgbox
+{
+    height: 74px;
+    width: 62px;
+    position: relative;/*relative karne se top bottom left right ka use karke div ko hilasakte hai*/
+    background-image: url('pic.jpg');
+    background-repeat: no-repeat;
+    top:24px;
+    left:34px;
+    cursor: pointer;
+}
+.hold
+{
+    border: red solid 4px;
+}
+
+.hold1
+{
+    background-color: pink;
+}
